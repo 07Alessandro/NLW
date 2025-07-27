@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/videogame.png" type="image/x-icon">
+    <title>Assistencia de Meta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo esports nlw">
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>Assistencia de Meta</h2>
+                <p>
+                    Pergunte sobre estratégias, build e dicas para seus jogos!
+                </p>
+
+                <form id="form" action="">
+
+                    <input id="apiKey" type="password" name="senha" id="isenha"
+                        placeholder="Informe a API KEY do Gemini" required>
+
+                    <select id="gameSelect">
+                        <option value="">Selecione um jogo</option>
+
+                        <option class="optionGame" value="valorant">Valorant</option>
+
+                        <option class="optionGame" value="lol">League of Legends</option>
+
+                        <option class="optionGame" value="fortnite">Fortnite</option>
+
+                        <option class="optionGame" value="roblox">Roblox</option>
+
+                        <option class="optionGame" value="cs">CS:GO</option>
+                    </select>
+
+                    <input id="questaoInput" type="text" placeholder="Ex: Melhor build para ADC...">
+
+                    <button id="botao">Perguntar</button>
+                </form>
+
+                <div id="aiResponde" class="hidden">
+                    <div class="reponse-content"></div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <div class="caixa">
+            <div class="caixaDentro">
+
+            </div>
+        </div>
+
+<!--         
+
+         <div class="select">
+        <div id="categoty-select">
+             <label for="label-opcao">Categoria</label>
+            <input type="checkbox" id="label-opcao"> 
+
+
+        <div id="select-botao">
+            <div id="selected-value">Selecione a categoria</div>
+
+            <div id="chevrons">
+                <i data-lucide="chevron-down"></i>
+                <i data-lucide="chevron-up"></i>
+            </div>
+        </div>
+        </div>
+
+        <ul id="opcaoes">
+            <li class="opcao">
+                <input type="radio" name="categoria" value="bakery" data-label="Padaria">
+
+                <i data-lucide="sandwich"></i>
+                <span class="label">Padaria</span>
+                <i data-lucide="check"></i>
+            </li>
+
+            <li class="opcao">
+                <input type="radio" name="categoria" value="vegetable" data-label="Legume">
+
+                <i data-lucide="carrot"></i>
+                <span class="label">Legume</span>
+                <i data-lucide="check"></i>
+
+
+            </li>
+
+
+            <li class="opcao">
+                <input type="radio" name="categoria" value="meat" data-label="Carne">
+
+                <i data-lucide="beef"></i>
+                <span class="label">Carne</span>
+                <i data-lucide="check"></i>
+
+
+            </li>
+
+            <li class="opcao">
+                <input type="radio" name="categoria" value="fruit" data-label="Fruta">
+
+                <i data-lucide="apple"></i>
+                <span class="label">Fruta</span>
+                <i data-lucide="check"></i>
+
+
+            </li>
+
+            <li class="opcao">
+                <input type="radio" name="categoria" value="drink" data-label="Bebida">
+
+                <i data-lucide="milk"></i>
+                <span class="label">Leite</span>
+                <i data-lucide="check"></i>
+
+
+            </li>
+        </ul>
+        
+        </div>
+    </main> -->
+
+
+
+
+
+
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
