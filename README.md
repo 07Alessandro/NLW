@@ -1,3 +1,6 @@
+<img width="1208" height="599" alt="Capturar-perguntaGames" src="https://github.com/user-attachments/assets/121a1c5f-3ddd-4921-b09f-142fce104fe8" />
+
+
 # HTML
 
 
